@@ -32,6 +32,6 @@ class Route {
       '5th Avenue'
     ];
     const ew = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal)-eastWest.indexOf(this.beginningLocation.horizontal);)
-    
+    return ew;
 }
 }
