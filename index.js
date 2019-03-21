@@ -29,9 +29,9 @@ class Route {
     ];
   }
 
-  blocksTravelled() {
-    const ns = Math.abs(parseInt(this.beginningLocation.vertical) - parseInt(this.endingLocation.vertical));
-    const es = Math.abs(this.eastWest.indexOf(this.endingLocation.horizontal) - this.eastWest.indexOf(this.beginningLocation.horizontal));
-    return ns+es;
+  blocksTravelled(){
+      const vblocks = Math.abs(parseInt(this.beginningLocation.vertical) - parseInt(this.endingLocation.vertical))
+      const hblocks = Math.abs(this.eastWest.indexOf(this.endingLocation.horizontal) - this.eastWest.indexOf(this.beginningLocation.horizontal))
+      return vblocks + hblocks
   }
 }
