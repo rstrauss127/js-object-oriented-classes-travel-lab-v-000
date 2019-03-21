@@ -31,6 +31,6 @@ class Route {
       'Madison Avenue',
       '5th Avenue'
     ];
-    return eastWest.indexOf(this.beginningLocation.horizontal)
+    const ew = eastWest.indexOf(this.beginningLocation.horizontal)-eastWest.indexOf(this.beginningLocation.horizontal);
 }
 }
