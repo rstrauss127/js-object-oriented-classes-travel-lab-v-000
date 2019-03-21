@@ -31,9 +31,9 @@ class Route {
       'Madison Avenue',
       '5th Avenue'
     ];
-    const ew = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal)-eastWest.indexOf(this.beginningLocation.horizontal));
-    const ns = Math.abs(this.beginningLocation.vertical-this.endingLocation.vertical);
-    return ew+ns;
+    const hblocks = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal)-eastWest.indexOf(this.beginningLocation.horizontal));
+    const vblocks = Math.abs(this.beginningLocation.vertical-this.endingLocation.vertical);
+    return hblocks+vblocks;
 }
 
 }
