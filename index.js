@@ -27,7 +27,7 @@ class Route {
       'Madison Avenue',
       '5th Avenue'
     ];
-  
+
 
   blocksTravelled(){
     return eastWest.indexOf(his.beginningLocation.horizontal)
