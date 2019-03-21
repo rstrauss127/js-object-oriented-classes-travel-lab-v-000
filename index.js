@@ -16,7 +16,7 @@ class Driver {
 class Route {
   constructor(beginningLocation, endingLocation) {
     this.beginningLocation = beginningLocation;
-    this.endingLocation = endingLocation;
+    this.endingLocation = endingLocation;}
 
     let eastWest = [
       '1st Avenue',
@@ -27,9 +27,9 @@ class Route {
       'Madison Avenue',
       '5th Avenue'
     ];
-  }
+  
 
   blocksTravelled(){
-    return this.eastWest.indexOf(his.beginningLocation.horizontal)
+    return eastWest.indexOf(his.beginningLocation.horizontal)
 }
 }
