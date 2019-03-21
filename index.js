@@ -30,6 +30,6 @@ class Route {
   }
 
   blocksTravelled(){
-    return this.eastWest.indexOf(this.beginningLocation.horizontal)
+    return this.eastWest.indexOf(beginningLocation.horizontal)
 }
 }
