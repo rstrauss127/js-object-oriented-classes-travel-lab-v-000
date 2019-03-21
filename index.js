@@ -17,8 +17,6 @@ class Route {
   constructor(beginningLocation, endingLocation) {
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
-
-
   }
 
   blocksTravelled(){
@@ -37,8 +35,8 @@ class Route {
   }
   estimatedTime(peak) {
     if (peak) {
-      return blocksTravelled()/3;
+      return this.blocksTravelled()/3;
     }
-    return blocksTravelled()/2;
+    return this.blocksTravelled()/2;
   }
 }
