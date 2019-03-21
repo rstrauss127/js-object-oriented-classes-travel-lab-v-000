@@ -30,8 +30,6 @@ class Route {
   }
 
   blocksTravelled(){
-      const vblocks = Math.abs(parseInt(this.beginningLocation.vertical) - parseInt(this.endingLocation.vertical))
-      const hblocks = Math.abs(this.eastWest.indexOf(this.endingLocation.horizontal) - this.eastWest.indexOf(this.beginningLocation.horizontal))
-      return vblocks + hblocks
-  }
+    return this.beginningLocation.horizontal
+}
 }
