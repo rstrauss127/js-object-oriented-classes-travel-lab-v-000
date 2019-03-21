@@ -28,8 +28,8 @@ class Route {
       '5th Avenue'
     ];
   }
-  
 
-  
-  blocksTravelled
+  blocksTravelled() {
+    const ns = Math.abs(this.beginningLocation.vertical-this.endingLocation.vertical);
+  }
 }
